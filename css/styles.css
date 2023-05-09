@@ -1,0 +1,80 @@
+* {
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.titulo {
+  margin-left: 90px;
+  color: darkslategray;
+}
+
+.button {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: -1px 2px 0 #666, -2px 1px #222;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+}
+
+.button:active {
+  box-shadow: inset -1px 1px 0 #222;
+}
+
+#gerar {
+  margin-top: 0px;
+  margin-left: 120px;
+}
+
+#resetar {
+  margin-left: 20px;
+}
+
+.paleta {
+  background-color: white;
+  width: 80px;
+  height: 50px;
+  margin-top: 20px;
+  box-shadow: -1px 2px 0 #666, -2px 1px #222;
+  border-width: 1px;
+}
+
+.paleta:active {
+    box-shadow: inset -1px 1px 0 #222;
+  }
+
+.quadro {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+}
+.linha1 {
+  margin-top: 20px;
+}
+
+.coluna1 {
+  margin-left: 10px;
+}
+
+.input {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 99px;
+  box-shadow: -1px 2px 0 #666, -2px 1px #222;
+}
+
+#alterar {
+  margin-left: 20px;
+}
+
+#paleta1 {
+  margin-left: 50px;
+}
